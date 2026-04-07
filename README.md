@@ -31,4 +31,7 @@ Bu depo, Karpathy'nin nanoGPT modelinin optimize edilmiş bir fork'udur. Standar
 
 <img width="826" height="212" alt="image" src="https://github.com/user-attachments/assets/78eb0252-98d1-4336-8142-5ad220e17d36" />
 
+<img width="833" height="458" alt="image" src="https://github.com/user-attachments/assets/5782e7bb-d430-43d0-8739-73e3474c1485" />
+
+
 
