@@ -7,7 +7,7 @@ This content is designed to be placed in your `README.md` to explain the **Calib
 This repository is a fork of Karpathy's [nanoGPT](https://github.com/karpathy/nanoGPT). While the original baseline achieves ~12% accuracy on the Shakespeare dataset within 1000 iterations, this version implements **Calibrated Stochastic Weight Averaging (SWA)** to reach **33.2% accuracy** under the same constraints.
 
 ## 📈 Performance Comparison
-
+Colab CPU was used.
 | Metric | Karpathy's Baseline | **Optimized (Ours)** | Improvement |
 | :--- | :--- | :--- | :--- |
 | **Accuracy (%)** | 12.24% | **33.20%** | **+210% (Relative)** |
@@ -29,6 +29,7 @@ Bu depo, Karpathy'nin nanoGPT modelinin optimize edilmiş bir fork'udur. Standar
 ## 🚀 Nasıl Çalıştırılır?
 `train.py` dosyasını çalıştırarak bu sonuçları simüle edebilirsiniz. Geliştirmeler `model.py` yapısına sadık kalınarak sadece eğitim stratejisi (scheduler ve weight averaging) üzerine yapılmıştır.
 
+Colab CPU was used.
 <img width="826" height="212" alt="image" src="https://github.com/user-attachments/assets/78eb0252-98d1-4336-8142-5ad220e17d36" />
 
 1) Dinamik Öğrenme Oranı (One-Cycle LR Schedule):
