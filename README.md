@@ -55,4 +55,15 @@ Sadece loss değerine bakmak yerine, torch.softmax ve argmax kullanarak modelin 
 
 set_to_none=True parametresiyle optimizer.zero_grad() kullanarak GPU belleğinde ekstra yer açtık ve eğitimi bir miktar hızlandırdık.
 
+8 nisan 2026 11:44
+number of parameters: 2.38M
+num decayed parameter tensors: 14, with 2,392,320 parameters
+num non-decayed parameter tensors: 7, with 1,792 parameters
+using fused AdamW: False
+Kalibre Edilmiş SWA Deneyi Başlıyor...
+
+--- KALİBRE EDİLMİŞ SONUÇ ---
+İşlemci : Colab CPU
+Final Loss: 1.6846 | PPL: 5.3906 | Süre: 315.26s | Doğruluk: %48.93
+---
 
