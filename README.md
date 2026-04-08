@@ -30,6 +30,7 @@ Bu depo, Karpathy'nin nanoGPT modelinin optimize edilmiş bir fork'udur. Standar
 `train.py` dosyasını çalıştırarak bu sonuçları simüle edebilirsiniz. Geliştirmeler `model.py` yapısına sadık kalınarak sadece eğitim stratejisi (scheduler ve weight averaging) üzerine yapılmıştır.
 
 Colab CPU was used.
+
 <img width="826" height="212" alt="image" src="https://github.com/user-attachments/assets/78eb0252-98d1-4336-8142-5ad220e17d36" />
 
 1) Dinamik Öğrenme Oranı (One-Cycle LR Schedule):
