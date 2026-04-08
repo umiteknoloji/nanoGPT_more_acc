@@ -3,6 +3,11 @@ import time
 import math
 
 def run_calibrated_swa(max_iters=1000):
+
+    # Hata Düzeltme: config nesnesi burada tanımlanıyor
+    # vocab_size ve diğer hiperparametreler önceki hücrelerden geliyor
+    config = GPTConfig(block_size=BLOCK_SIZE, vocab_size=vocab_size, n_layer=3, n_head=4, n_embd=256, dropout=0.0, bias=False)
+    
     model = GPT(config).to(device)
     optimizer = model.configure_optimizers(weight_decay=0.1, learning_rate=1e-3, betas=(0.9, 0.95), device_type=device)
     
