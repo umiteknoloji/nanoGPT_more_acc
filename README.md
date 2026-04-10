@@ -67,3 +67,8 @@ Kalibre Edilmiş SWA Deneyi Başlıyor...
 Final Loss: 1.6846 | PPL: 5.3906 | Süre: 315.26s | Doğruluk: %48.93
 ---
 
+Ayrıca CPU da token tabanlı en iyi çalışma ( şimdilik :) )
+
+https://docs.google.com/document/d/19Gg_L1T-sxZt9xst1QcZyaldopAcrrv5
+
+
